@@ -1,0 +1,27 @@
+{
+  "name": "no-numberplates",
+  "version": "0.0.1",
+  "description": "validator for norwegian numberplates",
+  "main": "no-numberplates.js",
+  "scripts": {
+<<<<<<< HEAD
+    "test":  "mocha src/index.test.js",    
+    "precommit": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nthjelme/no-numberplates"
+=======
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "precommit": "npm test:single"
+>>>>>>> parent of 16e691f... added git url
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "husky": "^0.13.2",
+    "mocha": "^3.2.0"
+  }  
+}
